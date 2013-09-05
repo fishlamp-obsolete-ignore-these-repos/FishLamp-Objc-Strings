@@ -7,7 +7,7 @@
 //  The FishLamp Framework is released under the MIT License: http://fishlamp.com/license 
 //
 
-#import "FishLampCore.h"
+#import "FishLampMinimum.h"
 #import "FLCocoaRequired.h"
 #import "FLWhitespace.h"
 #import "FLStringFormatter.h"
@@ -15,7 +15,7 @@
 #import "FLPrettyString.h"
 #import "FLStringDocument.h"
 
-@interface FLDocumentBuilder : FLStringFormatter<FLStringFormatterOutput> {
+@interface FLDocumentBuilder : FLStringFormatter {
 @private
     FLStringDocument* _document;
 }
